@@ -1,9 +1,13 @@
-import javafx.application.Application;
-import javafx.stage.Stage;
+package org.zrhackathon;
+
 import javax.swing.*;
 
-public class dcs_main extends Application {
-
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
     private static void createAndShowGUI() {
         //Create and set up the window.
         JFrame frame = new JFrame("HelloWorldSwing");
@@ -18,12 +22,8 @@ public class dcs_main extends Application {
         frame.setVisible(true);
     }
 
-    public static void main(String[] args) {
-        launch(args);
-    }
-
-    @Override
-    public void start(Stage primaryStage) {
+    public static void main( String[] args )
+    {
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
                 createAndShowGUI();

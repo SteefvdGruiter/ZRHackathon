@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ZRHackathon" />
+        <module name="WPA" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ZRHackathon" target="1.5" />
+      <module name="WPA" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
